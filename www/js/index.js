@@ -37,7 +37,9 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        document.getElementById('status').innerHTML = 'Connected!';
+        if (id === 'deviceready') {
+          document.getElementById('status').innerHTML = 'Connected!';
+        }
         console.log('Received Event: ' + id);
     }
 };
