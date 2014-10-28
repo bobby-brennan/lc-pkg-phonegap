@@ -1,5 +1,4 @@
 {
-  "package_name": "phonegap",
   "lucy_def": "phonegap",
   "files": [{
     "from": "www/config.xml"
