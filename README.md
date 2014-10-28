@@ -1,2 +1,2 @@
-lc-pkg-phonegap
-===============
+# PhoneGap Build Starter Application
+

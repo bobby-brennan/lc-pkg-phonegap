@@ -1,0 +1,19 @@
+{
+  "package_name": "phonegap",
+  "lucy_def": "phonegap",
+  "files": [{
+    "from": "www/config.xml"
+  }, {
+    "from": "www/index.html"
+  }, {
+    "from": "css/*",
+    "method": "copy"
+  }, {
+    "from": "js/*",
+    "method": "copy"
+  }],
+
+  "js_scripts": [
+    "icongen.js"
+  ]
+}
