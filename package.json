@@ -6,10 +6,10 @@
   }, {
     "from": "www/index.html"
   }, {
-    "from": "css/*",
+    "from": "www/css/*",
     "method": "copy"
   }, {
-    "from": "js/*",
+    "from": "www/js/*",
     "method": "copy"
   }],
 
